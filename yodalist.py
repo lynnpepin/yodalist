@@ -44,6 +44,7 @@ def yoda(n):
     else:
         return n
 
+
 class yodalist(list):
     """Yoda-indexed list. See documentation for 'yoda(n)'."""
     def __getitem__(self, x):
