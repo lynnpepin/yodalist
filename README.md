@@ -17,11 +17,13 @@ Yoda-indexed lists.
 
 ## Install
 
-There are two ways to use this package:
+There are three ways to use this package:
 
-1. Simply copy-and-paste the `yodalist.py` file to your project.
+1. Simply copy-and-paste the `src/yodalist.py` file to your project.
 
-2. 
+2. (todo) Install via PIP
+
+3. (todo) Build and install on your own.
 
 ## Usage
 
