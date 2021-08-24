@@ -2,7 +2,7 @@
 
 Yoda-indexed lists.
 
-TODOS:
+## TODOS:
 
 ```
 0. Stress the importance of zero-indexing: We're not savages here.
@@ -13,4 +13,30 @@ TODOS:
 2. Add install instructions
 3. Add something else snarky here
 7. Post to HackerNews or ProgrammerHumor or something, because this is how career-building works in 2021
+```
+
+## Install
+
+There are two ways to use this package:
+
+1. Simply copy-and-paste the `yodalist.py` file to your project.
+
+2. 
+
+## Usage
+
+```
+>>> from yodalist import yodalist
+>>> mylist = yodalist(['hello', 'world', 'i', 'am', 'a', 'yoda', 'list', '!!!'])
+>>> for ii in range(len(mylist)):
+...     print(ii, mylist[ii])
+... 
+0 hello
+1 a
+2 yoda
+3 list
+4 world
+5 i
+6 am
+7 !!!
 ```
