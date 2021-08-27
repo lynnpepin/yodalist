@@ -1,18 +1,19 @@
 Metadata-Version: 2.1
 Name: yodalist
-Version: 0.1.0
+Version: 0.1.1
 Summary: For lists, yoda-indexing this package provides. (A package for fun)
 Home-page: https://gitlab.com/lynnpepin/yodalist
 Author: lynn pepin
-Author-email: @lynndotpy@mastodon.social
+Author-email: 1914373-lynnpepin@users.noreply.gitlab.com
 License: see repository
 Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Other Audience
-Classifier: Progamming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
 Classifier: License :: Free To Use But Restricted
 Classifier: Operating System :: OS Independent
 Classifier: Topic :: Utilities
+Requires-Python: >=3.0
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
