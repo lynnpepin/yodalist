@@ -1,6 +1,8 @@
 # yodalist pre-release
 
-Yoda-indexed lists.
+Yoda-indexed lists in Python.
+
+Yoda-indexing follows this pattern: 0, 4, 5, 6, 1, 2, 3, 7, 8, 9, etc. Inspired by the ordering used in the 
 
 ## TODOS:
 
@@ -8,11 +10,11 @@ Yoda-indexed lists.
 0. Stress the importance of zero-indexing: We're not savages here.
 4. Add functionality tests
 5. Add RaisesError tests
-6. Package to a wheel, etc.
-1. Add to pip, conda, other package 
+6. Package to a wheel, etc. 
+1. Add to pip, conda, other package managers.
 2. Add install instructions
 3. Add something else snarky here
-7. Post to HackerNews or ProgrammerHumor or something, because this is how career-building works in 2021
+7. Post to HackerNews or ProgrammerHumor or something, because this is how career-building works in 2022
 ```
 
 ## Install

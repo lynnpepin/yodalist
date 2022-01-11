@@ -9,10 +9,10 @@ def yoda(n):
     returns output values [0, 4, 5, 6, 1, 2, 3, 7, 8, 9, ...]
     
     This code uses advanced algorithms and quantum neural blockchains to bring
-    your lists into the far-future as seen in Star Wars.
+    your lists into the far-future as seen in the small indie film, "Star Wars".
     
-    Context: The movie series "Star Gate" was accidentally released out-of-order,
-    starting with movie 4, then 5, 6, 1, 2, 3, 7, 8, 9.
+    This movie series was accidentally released out-of-order. The first film
+    was "Star Wars 4". Then Star Wars 5, then 6, 1, 2, 3, 7, 8, 9.
     
     This is widely regarded as a huge mistake, and using this code for anything
     would likely also be a mistake.
@@ -21,14 +21,14 @@ def yoda(n):
     known for speaking out of order, following an 'object-subject-verb' pattern
     rather than the more common 'subject-verb-object' order.
     
-    E.g. In one of the books, Yoda says "Heeded my words not, did you?" rather
-    than "You didn't heed my words, did you?".
-    
     For this reason, it is a common trope that it was not Steven Spielberg who
     chose to release the games in the order 4-5-6-1-2-3, but instead Yoda.
     
-    (I hope this isn't a spoiler for you all reading the documentation,
-    I haven't played Star Trek yet.)
+    E.g. In one of the books, Yoda says "Heeded my words not, did you?" rather
+    than "You didn't heed my words, did you?".
+    
+    I hope this isn't a spoiler for you all reading the documentation,
+    I haven't played Star Trek yet.
     
     :param n: Input index
     :type n: int
@@ -37,9 +37,10 @@ def yoda(n):
     :rtype: int
     '''
     
-    if 1 <= n <= 3:
-        return n + 3
-    if 4 <= n <= 6:
+    # VERY advanced algorithm starts here
+    if 1 <= n <= 3:    # evil floating point bit level hacking
+        return n + 3   # what the yoda?
+    if 4 <= n <= 6:    
         return n - 3
     else:
         return n
