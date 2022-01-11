@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="yodalist",
-    version="0.1.14",
+    version="0.1.22",
     author="lynn pepin",
     author_email="1914373-lynnpepin@users.noreply.gitlab.com",
     description="For lists, yoda-indexing this package provides.",
